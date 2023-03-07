@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css.map">
+	<link rel="stylesheet" href="./css/all.min.css">
+	<link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/color.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Lateef:wght@200;300;400;500;600;700;800&family=Lobster&family=Mada:wght@200;300;400;500;600;700;900&family=Markazi+Text:wght@400;500;600&family=Tajawal:wght@400;500&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<body dir="rtl">
+	
+	<div class="app">
+		<div class="container-fluid p-0" >
+			            <!-- navbar-->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <span>clothy</span>
+                        <i class="fab fa-shopify"></i>
+                    </a>
+								<span style="font-family: revert;">
+				أي شئ لكتابنه هنا
+			</span>
+                </div>
+            </nav>
+            <!-- navbar end-->
+                    <!-- all btn -->
+                    <div class="filter-button-group">
+					<!-- section Title -->
+					
+					<!-- section Title end-->
+					<!-- category btn -->
+					<p class="text-center" style="margin-top: 90px;"> النوع</p>
+			<div class="category-btn d-flex justify-content-center flex-wrap">
+			<button class="btn border-0" data-filter="squar">مربع </button>
+			<button class="btn border-0 " data-filter="rectan">مستطيل</button>
+			<button class="btn border-0 active all-cards" data-filter="*">كليهما</button>
+			</div>
+					<!-- category btn end -->
+					<!-- section Title -->
+					<p class="text-center mt-2">الفئه</p>
+					
+					<!-- section Title end-->
+					<!-- kind btn -->
+                    <!-- filter-button-group -->
+			<div class=" kind-btn d-flex justify-content-center flex-wrap mb-5">
+			<button class="btn border-0" data-filter="bairam">أعياد</button>
+			<button class="btn border-0" data-filter="fast">رمضان</button>
+			<button class="btn border-0" data-filter="anthor">أخرى</button>
+			<button class="btn border-0 active all-card" data-filter="*">الكل</button>
+			</div>
+					<!-- kind btn end -->
+                    </div>
+			<section style="background-color: #23232d; border-radius: 10px;" class="mt-5 pb-4" id="section">
+				<div  data-filter="squar" class="row justify-content-center g-3" id="cards">
+					<div class="col-auto p-1 ms-1" style="width:250px; height: 300px;background-color: #2c2c37;" id="card" data-filter="bairam">
+						<img class="w-100 h-100" src="./image/1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page1">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px; height: 300px;background-color: #2c2c37;" id="card" data-filter="fast">
+						<img class="w-100 h-100" src="./image/2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page2">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px; height: 300px;background-color: #2c2c37;" id="card" data-filter="anthor">
+						<img class="w-100 h-100" src="./image/2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page2">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px; height: 300px;background-color: #2c2c37;" id="card" data-filter="fast">
+						<img class="w-100 h-100" src="./image/3.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page3">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px; height: 300px;background-color: #2c2c37;" id="card" data-filter="bairam">
+						<img class="w-100 h-100" src="./image/4.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page4">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px; height: 300px;background-color: #2c2c37;" id="card" data-filter="bairam">
+						<img class="w-100 h-100" src="./image/4.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page4">
+					</div>	
+				</div>
+				<div  data-filter="rectan" class="row justify-content-center g-3 mt-2" id="cards">
+					<div class="col-auto p-1 ms-1" style="width:250px;background-color: #2c2c37;" id="card" data-filter="bairam">
+						<img class="w-100 h-100" src="./image/1.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page1">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px;background-color: #2c2c37;" id="card" data-filter="fast">
+						<img class="w-100 h-100" src="./image/2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page2">
+					</div>	
+					<div class="col-auto p-1 ms-1" style="width:250px;background-color: #2c2c37;" id="card" data-filter="anthor">
+						<img class="w-100 h-100" src="./image/2.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page2">
+					</div>		
+					<div class="col-auto p-1 ms-1" style="width:250px;background-color: #2c2c37;" id="card" data-filter="anthor">
+						<img class="w-100 h-100" src="./image/3.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page3">
+					</div>		
+					<div class="col-auto p-1 ms-1" style="width:250px;background-color: #2c2c37;" id="card" data-filter="anthor">
+						<img class="w-100 h-100" src="./image/4.jpg" alt="" data-bs-toggle="modal" data-bs-target="#page4">
+					</div>		
+				</div>
+			</section>
+
+	 <div class="modal fade" id="page1" tabindex="-1" aria-labelledby="socialModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+                                            <div class="modal-header" style="display: initial; padding: 16px 4px;">
+                                                <button data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-x"></i></button>
+                                                <div class="creater-own-image">
+													<div class="img-edit mx-auto" style="width:270px; height:330px;background-color: #2c2c37;">
+														<img class="w-100 h-100" src="./image/1.jpg" alt="" id="img1">
+													</div>
+													<form action="./rect/page1.html" class="text-center mt-3">
+														<h6>خصص هذه البطاقه بإسمك</h6>
+														<input type="text" name="" class="form-control" placeholder="إسمك الكريم" id="text1">
+														<textarea name="" id="" cols="4" class="form-control mt-3 mb-1" placeholder="النص المصاحب للبطاقه"></textarea>
+														<input type="submit" name="" class="form-control bg-warning border-0" value="أنشئ بطاقتي" onclick="passValue1();" id="passValue">
+													</form>
+													<div class="social">
+														<p>شارك هذه البطاقه</p>
+														<div class="icon">
+															<a class="fac"  href=""><i class="fab fa-facebook fa-2x text-warning me-2"></i></a>
+															<a class="tw" href=""><i class="fab fa-twitter fa-2x text-warning me-2"></i></a>
+															<a class="" href=""><i class="fab fa-instagram fa-2x text-warning me-2"></i></a>
+															<a class="ws" href=""><i class="fab fa-whatsapp fa-2x text-warning me-2"></i></a>
+														</div>
+													</div>
+                                                </div>
+                                            </div>
+		</div>
+	</div>
+	</div>
+
+	 <div class="modal fade" id="page2" tabindex="-1" aria-labelledby="socialModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+                                            <div class="modal-header" style="display: initial; padding: 16px 4px;">
+                                                <button data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-x"></i></button>
+                                                <div class="creater-own-image">
+													<div class="img-edit mx-auto" style="width:270px; height:330px;background-color: #2c2c37;">
+														<img class="w-100 h-100" src="./image/2.jpg" alt="" id="img2">
+													</div>
+													<form action="./rect/page2.html" class="text-center mt-3">
+														<h6>خصص هذه البطاقه بإسمك</h6>
+														<input type="text" name="" class="form-control" placeholder="إسمك الكريم" id="text2">
+														<textarea name="" id="" cols="4" class="form-control mt-3 mb-1" placeholder="النص المصاحب للبطاقه"></textarea>
+														<input type="submit" name="" class="form-control bg-warning border-0" value="أنشئ بطاقتي" onclick="passValue2();" id="passValue">
+													</form>
+													<div class="social">
+														<p>شارك هذه البطاقه</p>
+														<div class="icon">
+															<a href=""><i class="fab fa-facebook fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-twitter fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-instagram fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-whatsapp fa-2x text-warning me-2"></i></a>
+														</div>
+													</div>
+                                                </div>
+                                            </div>
+		</div>
+	</div>
+	</div>
+
+	 <div class="modal fade" id="page3" tabindex="-1" aria-labelledby="socialModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+                                            <div class="modal-header" style="display: initial; padding: 16px 4px;">
+                                                <button data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-x"></i></button>
+                                                <div class="creater-own-image">
+													<div class="img-edit mx-auto" style="width:270px; height:330px;background-color: #2c2c37;">
+														<img class="w-100 h-100" src="./image/3.jpg" alt="" id="img3">
+													</div>
+													<form action="./rect/page3.html" class="text-center mt-3">
+														<h6>خصص هذه البطاقه بإسمك</h6>
+														<input type="text" name="" class="form-control" placeholder="إسمك الكريم" id="text3">
+														<textarea name="" id="" cols="4" class="form-control mt-3 mb-1" placeholder="النص المصاحب للبطاقه"></textarea>
+														<input type="submit" name="" class="form-control bg-warning border-0" value="أنشئ بطاقتي" onclick="passValue3();" id="passValue">
+													</form>
+													<div class="social">
+														<p>شارك هذه البطاقه</p>
+														<div class="icon">
+															<a href=""><i class="fab fa-facebook fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-twitter fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-instagram fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-whatsapp fa-2x text-warning me-2"></i></a>
+														</div>
+													</div>
+                                                </div>
+                                            </div>
+		</div>
+	</div>
+	</div>
+
+	 <div class="modal fade" id="page4" tabindex="-1" aria-labelledby="socialModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+                                            <div class="modal-header" style="display: initial; padding: 16px 4px;">
+                                                <button data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-x"></i></button>
+                                                <div class="creater-own-image">
+													<div class="img-edit mx-auto" style="width:270px; height:330px;background-color: #2c2c37;">
+														<img class="w-100 h-100" src="./image/4.jpg" alt="" id="img4">
+													</div>
+													<form action="./rect/page4.html" class="text-center mt-3">
+														<h6>خصص هذه البطاقه بإسمك</h6>
+														<input type="text" name="" class="form-control" placeholder="إسمك الكريم" id="text4">
+														<textarea name="" id="" cols="4" class="form-control mt-3 mb-1" placeholder="النص المصاحب للبطاقه"></textarea>
+														<input type="submit" name="" class="form-control bg-warning border-0" value="أنشئ بطاقتي" onclick="passValue4();" id="passValue">
+													</form>
+													<div class="social">
+														<p>شارك هذه البطاقه</p>
+														<div class="icon">
+															<a href=""><i class="fab fa-facebook fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-twitter fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-instagram fa-2x text-warning me-2"></i></a>
+															<a href=""><i class="fab fa-whatsapp fa-2x text-warning me-2"></i></a>
+														</div>
+													</div>
+                                                </div>
+                                            </div>
+		</div>
+	</div>
+	</div>
+	<footer class="mt-3" style="background-color: #191923;">
+		<div class="logo text-center">
+			<a class="navbar-brand" href="./index.html">
+				<span class="fs-4">clothy</span>
+				<i class="fab fa-shopify" style="font-size: 20px;"></i>
+			</a>
+			<p class="text-uppercase border-warning border-bottom px-2 m-auto pb-1" style="width: fit-content; letter-spacing: 5px;">we in social</p>
+			<div class="social my-3 ms-3" dir="ltr">
+				<div class="container ">
+
+					<div class="text-center">
+						<a href="https://twitter.com/yunos_sarhan" class="me-4"><i class="fab fa-twitter fa-2x link-warning border-bottom border-primary pb-1"></i></a>
+						<a href="https://instagram.com/yunos_sarhan" class="me-4"><i class="fab fa-instagram fa-2x link-warning border-bottom border-danger pb-1"></i></a>
+						<a href="https://wa.me/772735762" class="me-4"><i class="fab fa-whatsapp fa-2x link-warning border-bottom border-success pb-1"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	   </div>
+	</div>
+
+	<div class="developer py-2" style="background-color: #23232d; font-size: 12px;" dir="ltr">
+		<div class="container-fluid"> Development By : <a href="https://twitter.com/maged_sarhan_">Maged Sarhan</a> © <span id="date"></span></div>
+	</div>
+	<script src="./js/all.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js"></script>
+	<script src="./js/bootstrap.bundle.min.js.map"></script>
+	<script src="./js/jquery-3.6.3.min.js"></script>
+	<script src="./js/main.js"></script>
+
+
+</body>
+</html>
